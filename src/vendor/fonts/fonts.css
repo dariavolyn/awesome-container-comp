@@ -1,0 +1,17 @@
+@font-face {
+    src: url(./SplineSans-Bold.ttf);
+    font-family: 'Spline Sans';
+    font-weight: bold;
+}
+
+@font-face {
+    src: url(./SplineSans-Regular.ttf);
+    font-family: 'Spline Sans';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(./SplineSans-Medium.ttf);
+    font-family: 'Spline Sans';
+    font-weight: 400;
+}

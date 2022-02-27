@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+    max-width: 1440px;
+    font-family: 'Spline Sans';
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    border-width: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+}
