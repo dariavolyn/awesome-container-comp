@@ -17,19 +17,6 @@ function Slider() {
                 handle={<button className='button slider__thumb'></button>}
             ></ReactCompareImage>
         </div >
-
-        // <div className='slider'>
-        //     <img className='slider__waste' src={waste}></img>
-        //     <img className='slider__acc' src={acc}></img>
-
-
-
-        //     </ReactSlider>
-        //     <div className='slider__element'>
-        //         <button className='button slider__thumb'></button>
-        //         <button className='button slider__line'></button>
-        //     </div>
-        // </div>
     )
 }
 

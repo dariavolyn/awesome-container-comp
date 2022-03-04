@@ -3,4 +3,6 @@
 .info {
     margin: 74px 40px 40px 40px;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
