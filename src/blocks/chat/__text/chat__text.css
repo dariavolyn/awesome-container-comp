@@ -1,0 +1,28 @@
+.chat__text {
+    margin: 0;
+    padding: 10px;
+    margin-block: 0;
+    margin-inline: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.chat__text:first {
+    animation: msg 1.5s 0s;
+}
+
+@keyframes msg {
+    0% {
+        visibility: hidden;
+        height: 0;
+        border: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    100% {
+        visibility: visible;
+        height: fit-content;
+    }
+}
