@@ -1,16 +1,28 @@
 @import url('./__icon/chat__icon.css');
 @import url('./__icon/_type/chat__icon_type_acc.css');
+@import url('./__icon/_type/chat__icon_type_user.css');
 @import url('./__msg/chat__msg.css');
 @import url('./__msg/_type/chat__msg_type_acc.css');
 @import url('./__msg/_type/chat__msg_type_user.css');
+@import url('./__msg/_visible/chat__msg_visible.css');
 @import url('./__text/chat__text.css');
 @import url('./__button/chat__button.css');
+@import url('./__typing/chat__typing.css');
+@import url('./__typing/_type/chat__typing_type_user.css');
+@import url('./__typing/_type/chat__typing_type_acc.css');
 
 .chat {
-    margin: 0 0 0 200px;
+    margin: 0;
     padding: 0;
-    max-width: 491px;
+    width: 491px;
     max-height: 389px;
+    position: absolute;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+}
+
+.chat_visible {
+    display: block;
 }

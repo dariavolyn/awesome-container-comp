@@ -1,3 +1,6 @@
 .chat__icon_type_acc {
-    align-self: flex-end;
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
