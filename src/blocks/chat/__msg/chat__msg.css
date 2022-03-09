@@ -1,29 +1,16 @@
 .chat__msg {
-    margin: 0 0 16px 0;
+    margin: 16px 0 0 0;
     padding: 0;
+    width: fit-content;
     max-width: 279px;
-    height: 0;
-    visibility: hidden;
+    height: fit-content;
+    display: none;
 }
 
 .chat__msg:first-of-type {
-    margin-top: 23px;
-    margin-left: 10px;
-    animation: msg 1.5s 1s forwards;
+    margin-top: 0;
 }
-
-/* .chat__msg:nth-of-type(2) {
-    animation: msg 1.5s 1s forwards;
-} */
 
 .chat__msg:last-of-type {
     margin-bottom: 32px;
-}
-
-@keyframes msg {
-    0% {
-        visibility: visible;
-
-        height: fit-content;
-    }
 }
