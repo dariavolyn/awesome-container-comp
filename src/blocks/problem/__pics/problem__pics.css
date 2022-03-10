@@ -1,0 +1,9 @@
+.problem__pics {
+    margin: 0;
+    padding: 80px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 346px);
+    column-gap: 60px;
+    grid-template-rows: 315px 34px;
+    row-gap: 20px;
+}

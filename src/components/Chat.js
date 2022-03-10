@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import user from '../images/user_icon.svg';
 import acc from '../images/acc_icon.svg';
-import typing from '../images/typing.svg';
 
 function Chat() {
-    const [userTypingShow, setUserTypingShow] = useState(false);
-    const [accTypingShow, setAccTypingShow] = useState(false);
     const [firstMsgShow, setFirstMsgShow] = useState(false);
     const [secondMsgShow, setSecondMsgShow] = useState(false);
     const [thirdMsgShow, setThirdMsgShow] = useState(false);

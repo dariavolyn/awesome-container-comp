@@ -1,4 +1,7 @@
 @import url('./__thumb/slider__thumb.css');
+@import url('./__image/slider__image.css');
+@import url('./__caption/slider__caption.css');
+@import url('./__caption-box/slider__caption-box.css');
 
 .slider {
     padding: 0;
@@ -6,5 +9,4 @@
     width: 628px;
     border-radius: 19px;
     resize: both;
-    border: 1px solid black;
 }

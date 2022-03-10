@@ -1,0 +1,16 @@
+@import url('./__content/problem__content.css');
+@import url('./__circle/problem__circle.css');
+@import url('./__text/problem__text.css');
+@import url('./__title/problem__title.css');
+@import url('./__subtitle/problem__subtitle.css');
+@import url('./__pics/problem__pics.css');
+@import url('./__img/problem__img.css');
+@import url('./__caption/problem__caption.css');
+
+
+.problem {
+    height: 1037px;
+    margin: 0;
+    padding: 0;
+    background-color: #1C383C;
+}

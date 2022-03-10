@@ -1,0 +1,7 @@
+.problem__content {
+    margin: 0;
+    padding: 120px 140px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,13 +1,15 @@
 import React from 'react';
 
 import Header from './Header';
-import InfoBlock from './InfoBlock';
+import Intro from './Intro';
+import Problem from './Problem';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <InfoBlock></InfoBlock>
+      <Intro></Intro>
+      <Problem></Problem>
     </div>
   );
 }
