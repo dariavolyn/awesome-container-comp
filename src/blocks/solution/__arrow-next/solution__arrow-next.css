@@ -12,5 +12,5 @@
     border: none;
     position: absolute;
     top: 50%;
-    left: calc(100% + 30px)
+    right: 0;
 }

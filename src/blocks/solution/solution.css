@@ -1,9 +1,19 @@
-@import url('./__title/solution__title.css');
-@import url('./__subtitle/solution__subtitle.css');
-@import url('./__carousel/solution__carousel.css');
-@import url('./__image/solution__image.css');
 @import url('./__arrow-next/solution__arrow-next.css');
 @import url('./__arrow-prev/solution__arrow-prev.css');
+@import url('./__caption/solution__caption.css');
+@import url('./__caption/_type/solution__caption_type_costs.css');
+@import url('./__caption/_type/solution__caption_type_space.css');
+@import url('./__carousel/solution__carousel.css');
+@import url('./__costs/solution__costs.css');
+@import url('./__costs-img/solution__costs-img.css');
+@import url('./__image/solution__image.css');
+@import url('./__info/solution__info.css');
+@import url('./__space/solution__space.css');
+@import url('./__space-img/solution__space-img.css');
+@import url('./__subtitle/solution__subtitle.css');
+@import url('./__support/solution__support.css');
+@import url('./__support-img/solution__support-img.css');
+@import url('./__title/solution__title.css');
 
 .solution {
     margin: 0;

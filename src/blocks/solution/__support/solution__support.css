@@ -1,0 +1,11 @@
+.solution__support {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 81px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}

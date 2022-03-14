@@ -1,0 +1,9 @@
+.solution__costs {
+    position: absolute;
+    top: 257px;
+    right: 68px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
