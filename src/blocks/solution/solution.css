@@ -1,0 +1,18 @@
+@import url('./__title/solution__title.css');
+@import url('./__subtitle/solution__subtitle.css');
+@import url('./__carousel/solution__carousel.css');
+@import url('./__image/solution__image.css');
+@import url('./__arrow-next/solution__arrow-next.css');
+@import url('./__arrow-prev/solution__arrow-prev.css');
+
+.solution {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #1C383C;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}

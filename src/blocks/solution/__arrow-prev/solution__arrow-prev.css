@@ -1,0 +1,16 @@
+.solution__arrow-prev {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    background-color: #1C383C;
+    background-image: url('../../../images/arrow-prev.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8px;
+    border-radius: 1em;
+    border: none;
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 30px);
+}
