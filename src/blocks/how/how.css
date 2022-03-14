@@ -1,0 +1,23 @@
+@import url(./__circle/how__circle.css);
+@import url(./__circle-item/how__circle-item.css);
+@import url(./__circle-item/_type/how__circle-item_type_app.css);
+@import url(./__circle-item/_type/how__circle-item_type_truck.css);
+@import url(./__circle-item/_type/how__circle-item_type_pickup.css);
+@import url(./__circle-item/_type/how__circle-item_type_clean.css);
+@import url(./__circle-caption/how__circle-caption.css);
+@import url(./__circle-img/how__circle-img.css);
+@import url(./__label/how__label.css);
+@import url(./__arrow/how__arrow.css);
+@import url(./__arrow-one/how__arrow-one.css);
+@import url(./__arrow-two/how__arrow-two.css);
+@import url(./__arrow-three/how__arrow-three.css);
+@import url(./__arrow-four/how__arrow-four.css);
+@import url(./__title/how__title.css);
+@import url(./__button/how__button.css);
+
+
+.how { 
+    margin: 0;
+    padding: 0;
+    color: #1C383C;
+}

@@ -4,6 +4,7 @@ import Header from './Header';
 import Intro from './Intro';
 import Problem from './Problem';
 import Solution from './Solution';
+import HowItWorks from './HowItWorks';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Intro />
       <Problem />
       <Solution />
+      <HowItWorks />
     </div>
   );
 }

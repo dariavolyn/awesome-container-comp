@@ -1,0 +1,9 @@
+.how__circle {
+    margin: 0 auto;
+    padding: 0;
+    /* height: 835px; */
+    height: 700px;
+    width: 1240px;
+    position: relative;
+    border: 1px solid red;
+}
