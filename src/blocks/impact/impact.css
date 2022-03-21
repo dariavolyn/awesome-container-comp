@@ -1,0 +1,24 @@
+@import url(./__title/impact__title.css);
+@import url(./__cards/impact__cards.css);
+@import url(./__card/impact__card.css);
+@import url(./__card-title/impact__card-title.css);
+@import url(./__card-list/impact__card-list.css);
+@import url(./__card-text/impact__card-text.css);
+@import url(./__table/impact__table.css);
+@import url(./__table-title/impact__table-title.css);
+@import url(./__grid/impact__grid.css);
+@import url(./__cell/impact__cell.css);
+@import url(./__cell-text/impact__cell-text.css);
+@import url(./__cell-text/_type/impact__cell-text_type_header.css);
+@import url(./__cell-text/_type/impact__cell-text_type_row.css);
+@import url(./__cell-circle/impact__cell-circle.css);
+@import url(./__cell-circle/_orange/impact__cell-circle_orange.css);
+@import url(./__cell-circle/_black/impact__cell-circle_black.css);
+
+.impact {
+    background-color: #F4F4F4;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #1C383C;
+}

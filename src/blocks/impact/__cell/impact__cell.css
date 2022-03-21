@@ -1,0 +1,17 @@
+.impact__cell {
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #B6B6B6;
+    border-bottom: 1px solid #B6B6B6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.impact__cell:nth-child(6n) {
+    border-right: none;
+}
+
+.impact__cell:nth-child(n+43) {
+    border-bottom: none;
+}

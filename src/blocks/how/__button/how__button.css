@@ -1,4 +1,14 @@
 .how__button {
     background-color: #FF9820;
+    border-radius: 3px;
     color: white;
+    width: 200px;
+    height: 60px;
+    margin: 80px auto 101px auto;
+    padding: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
 }

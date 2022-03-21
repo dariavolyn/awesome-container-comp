@@ -5,6 +5,7 @@ import Intro from './Intro';
 import Problem from './Problem';
 import Solution from './Solution';
 import HowItWorks from './HowItWorks';
+import Impact from './Impact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Problem />
       <Solution />
       <HowItWorks />
+      <Impact />
     </div>
   );
 }

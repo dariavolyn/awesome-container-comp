@@ -20,4 +20,6 @@
     margin: 0;
     padding: 0;
     color: #1C383C;
+    display: flex;
+    flex-wrap: wrap;
 }
