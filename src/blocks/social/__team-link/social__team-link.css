@@ -1,0 +1,10 @@
+.social__team-link {
+    margin: 20px auto 0 auto;
+    padding: 0;
+    background-image: url(../../../images/linkedin.svg);
+    background-position: center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    border-color: transparent;
+}

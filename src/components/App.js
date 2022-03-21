@@ -6,6 +6,7 @@ import Problem from './Problem';
 import Solution from './Solution';
 import HowItWorks from './HowItWorks';
 import Impact from './Impact';
+import Social from './Social';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Solution />
       <HowItWorks />
       <Impact />
+      <Social />
     </div>
   );
 }

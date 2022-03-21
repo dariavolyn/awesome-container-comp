@@ -1,0 +1,9 @@
+.social__partners {
+    margin: 101px auto 151px auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    max-width: 890px;
+}

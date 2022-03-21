@@ -1,0 +1,7 @@
+.social__info {
+    margin: 0 auto;
+    padding: 0 0 240px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
