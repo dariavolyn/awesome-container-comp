@@ -7,6 +7,7 @@ import Solution from './Solution';
 import HowItWorks from './HowItWorks';
 import Impact from './Impact';
 import Social from './Social';
+import Footer from './Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <HowItWorks />
       <Impact />
       <Social />
+      <Footer />
     </div>
   );
 }
