@@ -1,0 +1,14 @@
+.team__title {
+    font-family: Spline Sans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.team__title:last-of-type {
+    padding-top: 120px;
+}

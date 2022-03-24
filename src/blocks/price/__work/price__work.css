@@ -1,0 +1,7 @@
+.price__work {
+    margin: 0 auto;
+    padding: 92px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 178px;
+}

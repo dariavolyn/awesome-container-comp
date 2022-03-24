@@ -2,22 +2,7 @@
 @import url(./__info-title/social__info-title.css);
 @import url(./__info-logo/social__info-logo.css);
 @import url(./__info-text/social__info-text.css);
-@import url(./__work/social__work.css);
-@import url(./__work-img/social__work-img.css);
-@import url(./__work-title/social__work-title.css);
-@import url(./__work-speech/social__work-speech.css);
-@import url(./__work-text/social__work-text.css);
-@import url(./__button/social__button.css);
-@import url(./__text/social__text.css);
-@import url(./__team-title/social__team-title.css);
-@import url(./__team/social__team.css);
-@import url(./__team-cell/social__team-cell.css);
-@import url(./__team-img/social__team-img.css);
-@import url(./__team-name/social__team-name.css);
-@import url(./__team-link/social__team-link.css);
 @import url(./__title/social__title.css);
-@import url(./__partners/social__partners.css);
-@import url(./__partners-link/social__partners-link.css);
 
 .social {
     margin: 0;

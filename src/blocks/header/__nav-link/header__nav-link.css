@@ -1,0 +1,10 @@
+.header__nav-link {
+    padding: 0;
+    margin: auto 20px auto 0;
+    font-size: 14px;
+    line-height: 16.59px;
+}
+
+.header__nav-link:hover {
+    cursor: pointer;
+}

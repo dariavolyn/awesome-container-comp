@@ -1,0 +1,17 @@
+@import url(./__cell/team__cell.css);
+@import url(./__cell-img/team__cell-img.css);
+@import url(./__cell-link/team__cell-link.css);
+@import url(./__cell-name/team__cell-name.css);
+@import url(./__grid/team__grid.css);
+@import url(./__partners/team__partners.css);
+@import url(./__partners-link/team__partners-link.css);
+@import url(./__title/team__title.css);
+
+.team {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

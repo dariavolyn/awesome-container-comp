@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll'
 
 import Header from './Header';
 import Intro from './Intro';
@@ -7,19 +8,42 @@ import Solution from './Solution';
 import HowItWorks from './HowItWorks';
 import Impact from './Impact';
 import Social from './Social';
-import Footer from './Footer'
+import Footer from './Footer';
+import Pricing from './Pricing';
+import Team from './Team';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
       <Intro />
-      <Problem />
-      <Solution />
-      <HowItWorks />
-      <Impact />
+
+      <Element id='problem' name='problem'>
+        <Problem />
+      </Element>
+
+      <Element id='solution' name='solution'>
+        <Solution />
+        <HowItWorks />
+      </Element>
+
+      <Element id='impact' name='impact'>
+        <Impact />
+      </Element>
+
       <Social />
-      <Footer />
+
+      <Element id='pricing' name='pricing'>
+        <Pricing />
+      </Element>
+
+      <Element id='team' name='team'>
+        <Team />
+      </Element>
+
+      <Element id='contacts' name='contacts'>
+        <Footer />
+      </Element>
     </div>
   );
 }

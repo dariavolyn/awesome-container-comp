@@ -1,0 +1,16 @@
+.header__nav-button {
+    width: 132px;
+    height: 44px;
+    background-color: #FF9820;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    margin: auto 0 auto 20px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16.59px;
+}
+
+.header__nav-button:hover {
+    background-color: #E78819;
+}

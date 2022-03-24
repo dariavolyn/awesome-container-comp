@@ -1,6 +1,7 @@
 import React from 'react';
-import logo2 from '../images/logo2.svg'
-import logo1 from '../images/logo1.svg'
+import { Link } from 'react-scroll';
+
+
 
 function Header() {
     return (
@@ -8,12 +9,18 @@ function Header() {
             <div className='header__logo'></div>
             <h1 className='header__title'>Awesome Container Company</h1>
             <nav className='header__nav'>
-                <p className='header__nav-link'>The Problem</p>
-                <p className='header__nav-link'>Sustainable Solution</p>
-                <p className='header__nav-link'>Impact</p>
-                <p className='header__nav-link'>Pricing</p>
-                <p className='header__nav-link'>Team</p>
-                <p className='header__nav-link'>Contacts</p>
+                <Link spy={true} smooth={true} duration={200} to='problem'
+                    className='header__nav-link'>The Problem</Link>
+                <Link spy={true} smooth={true} duration={400} to='solution'
+                    className='header__nav-link'>Sustainable Solution</Link>
+                <Link spy={true} smooth={true} duration={500} to='impact'
+                    className='header__nav-link'>Impact</Link>
+                <Link spy={true} smooth={true} duration={600} to='pricing'
+                    className='header__nav-link'>Pricing</Link>
+                <Link spy={true} smooth={true} duration={700} to='team'
+                    className='header__nav-link'>Team</Link>
+                <Link spy={true} smooth={true} duration={800} to='contacts'
+                    className='header__nav-link'>Contacts</Link>
                 <button className='button header__nav-button'>Work with us</button>
             </nav>
         </div>

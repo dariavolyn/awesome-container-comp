@@ -1,0 +1,17 @@
+@import url(./__work-img/price__work-img.css);
+@import url(./__work-title/price__work-title.css);
+@import url(./__work-speech/price__work-speech.css);
+@import url(./__work-text/price__work-text.css);
+@import url(./__button/price__button.css);
+@import url(./__text/price__text.css);
+@import url(./__title/price__title.css);
+@import url(./__work/price__work.css);
+
+.price {
+    margin: 0;
+    padding: 0 0 240px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,11 @@
+.header__logo {
+    margin: auto 0;
+    padding: 0;
+    width: 92px;
+    height: 52px;
+    background-image: url('../../../images/logo2.svg');
+}
+
+.header__logo:hover {
+    background-image: url('../../../images/logo1.svg');
+}

@@ -1,0 +1,7 @@
+.team__cell {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

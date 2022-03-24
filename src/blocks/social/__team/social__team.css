@@ -1,8 +1,0 @@
-.social__team {
-    margin: 80px auto 120px auto;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-template-rows: 274.2px;
-    column-gap: 100px;
-}
