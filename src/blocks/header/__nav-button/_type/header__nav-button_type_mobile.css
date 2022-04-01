@@ -1,0 +1,24 @@
+.header__nav-button_type_mobile {
+    display: block;
+    margin: 112px auto 0 auto;
+    font-size: 24px;
+    line-height: 28px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+}
+
+.header__nav-button_type_mobile:hover {
+    background-color: #FF9820;
+}
+
+.header__nav-button_type_mobile:active {
+    background-color: #E78819;
+}
+
+
+@media screen and (min-width: 546px) {
+    .header__nav-button_type_mobile {
+        display: none;
+    }
+}

@@ -1,16 +1,14 @@
 .header__nav {
     padding: 0;
-    margin: 0 0 0 363px;
+    margin: auto 0 auto auto;
     display: flex;
     justify-content: space-between;
     align-content: center;
     justify-self: flex-end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 940px) {
     .header__nav {
-        margin: auto 0;
-        padding-left: 37px;
-        justify-content: space-evenly;
+        display: none;
     }
 }

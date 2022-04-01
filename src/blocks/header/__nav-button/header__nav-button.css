@@ -6,9 +6,11 @@
     border-radius: 10px;
     border-color: transparent;
     margin: auto 0 auto 20px;
-    padding: 0;
+    padding: 13px 24px;
+    text-align: center;
     font-size: 14px;
     line-height: 16.59px;
+    justify-self: flex-end;
 }
 
 .header__nav-button:hover {
@@ -18,5 +20,11 @@
 @media screen and (max-width: 1024px) {
     .header__nav-button {
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .header__nav-button {
+        display: none;
     }
 }

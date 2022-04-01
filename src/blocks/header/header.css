@@ -1,7 +1,13 @@
 @import url(./__logo/header__logo.css);
+@import url(./__menu-button/header__menu-button.css);
+@import url(./__menu-button/_type/header__menu-button_type_close.css);
 @import url(./__nav/header__nav.css);
 @import url(./__nav-button/header__nav-button.css);
+@import url(./__nav-button/_type/header__nav-button_type_mobile.css);
+@import url(./__nav-mobile/header__nav-mobile.css);
+@import url(./__nav-mobile/_hidden/header__nav-mobile_hidden.css);
 @import url(./__nav-link/header__nav-link.css);
+@import url(./__nav-link/_type/header__nav-link_type_mobile.css);
 @import url(./__title/header__title.css);
 
 .header {
@@ -12,11 +18,18 @@
     max-width: calc(100% - 60px);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .header {
-        margin: 0;
+        margin: 0 20px;
         padding: 0;
         max-width: 100%;
-        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 545px) {
+    .header {
+        margin: 0 16px;
+        padding: 0;
+        max-width: 100%;
     }
 }

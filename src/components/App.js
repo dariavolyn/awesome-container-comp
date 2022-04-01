@@ -29,7 +29,7 @@ function App() {
       <Header handleFormOpen={handleFormOpen}/>
       <Intro />
 
-      <Element id='problem' name='problem'>
+      {/* <Element id='problem' name='problem'>
         <Problem />
       </Element>
 
@@ -56,7 +56,7 @@ function App() {
         <Footer />
       </Element>
 
-      <Form isFormOpen={isFormOpen} handleFormClose={handleFormClose}/>
+      <Form isFormOpen={isFormOpen} handleFormClose={handleFormClose}/> */}
     </div>
   );
 }
