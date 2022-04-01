@@ -5,9 +5,18 @@
 @import url(./__title/header__title.css);
 
 .header {
-    margin: 8px 20px 0 40px;
-    padding: 0;
+    margin: 0 20px 0 40px;
+    padding: 8px 0 0 0;
     font-weight: normal;
     display: flex;
     max-width: calc(100% - 60px);
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        justify-content: space-evenly;
+    }
 }

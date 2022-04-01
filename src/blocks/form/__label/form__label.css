@@ -1,0 +1,12 @@
+.form__label {
+    margin: 0;
+    padding: 40px 0 11px 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.form__label:first-of-type {
+    padding-top: 50px;
+}

@@ -6,3 +6,11 @@
     align-content: center;
     justify-self: flex-end;
 }
+
+@media screen and (max-width: 1024px) {
+    .header__nav {
+        margin: auto 0;
+        padding-left: 37px;
+        justify-content: space-evenly;
+    }
+}

@@ -8,8 +8,12 @@ import clean from '../images/clean.svg';
 import pickup from '../images/pickup.svg';
 import truck from '../images/truck.svg';
 
-function HowItWorks() {
+function HowItWorks(props) {
     const fontColor = '#FF9820';
+
+    function onClick() {
+        props.handleFormOpen();
+    }
 
     return (
         <div className='how'>
@@ -46,7 +50,8 @@ function HowItWorks() {
 
                 <h4 className='how__label'><span style={{ color: fontColor }}>Circular ecosystem</span></h4>
             </div>
-            <button className='button how__button'>Work with us</button>
+
+            <button type='button' className='button how__button' onClick={onClick}>Work with us</button>
         </div>
     )
 }

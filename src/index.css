@@ -4,6 +4,7 @@
 
 @import url(./blocks/chat/chat.css);
 @import url(./blocks/footer/footer.css);
+@import url(./blocks/form/form.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/how/how.css);
 @import url(./blocks/impact/impact.css);
@@ -14,3 +15,4 @@
 @import url(./blocks/social/social.css);
 @import url(./blocks/solution/solution.css);
 @import url(./blocks/team/team.css);
+@import url(./blocks/form/_visible/form_visible.css);

@@ -14,3 +14,9 @@
 .header__nav-button:hover {
     background-color: #E78819;
 }
+
+@media screen and (max-width: 1024px) {
+    .header__nav-button {
+        margin-left: 0;
+    }
+}

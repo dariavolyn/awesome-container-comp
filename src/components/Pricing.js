@@ -1,7 +1,10 @@
 import React from 'react';
 import container2 from '../images/container-work.svg'
 
-export default function Pricing() {
+export default function Pricing(props) {
+    function onClick() {
+        props.handleFormOpen();
+    }
     return (
         <div className='price'>
             <h2 className='price__title'>Get in touch with us to calculate prices for your business</h2>
@@ -13,7 +16,7 @@ export default function Pricing() {
                 </div>
             </div>
 
-            <button className='button price__button'>Work with us</button>
+            <button type='button' className='button price__button' onClick={onClick}>Work with us</button>
             <p className='price__text'>Leave your contacts and request, and our manager will reach out to you to establish our futher parntership!</p>
         </div>
     )

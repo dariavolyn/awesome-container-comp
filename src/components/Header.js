@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-
-
-function Header() {
+function Header(props) {
+    function onClick() {
+        props.handleFormOpen();
+    }
     return (
         <div className='header'>
             <div className='header__logo'></div>
@@ -21,7 +22,7 @@ function Header() {
                     className='header__nav-link'>Team</Link>
                 <Link spy={true} smooth={true} duration={800} to='contacts'
                     className='header__nav-link'>Contacts</Link>
-                <button className='button header__nav-button'>Work with us</button>
+                <button type='button' className='button header__nav-button' onClick={onClick}>Work with us</button>
             </nav>
         </div>
     )

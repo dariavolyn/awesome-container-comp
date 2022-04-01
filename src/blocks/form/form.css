@@ -1,0 +1,25 @@
+@import url(./__button/form__button.css);
+@import url(./__button/_disabled/form__button_disabled.css);
+@import url(./__close/form__close.css);
+@import url(./__input/form__input.css);
+@import url(./__input/_type/form__input_type_details.css);
+@import url(./__input-error/form__input-error.css);
+@import url(./__label/form__label.css);
+@import url(./__label-error/form__label-error.css);
+@import url(./__label/_invisible/form__label_invisible.css);
+@import url(./__title/form__title.css);
+@import url(./__wrapper/form__wrapper.css);
+
+.form {
+    margin: 0 25% 0 25%;
+    padding: 0 80px 0 80px;
+    max-width: 760px;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #1C383C;
+    background-color: white;
+    display: flex;
+    height: 778px;
+}

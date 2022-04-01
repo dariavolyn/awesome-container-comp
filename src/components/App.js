@@ -1,21 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Element } from 'react-scroll'
 
+import Footer from './Footer';
+import Form from './Form';
 import Header from './Header';
-import Intro from './Intro';
-import Problem from './Problem';
-import Solution from './Solution';
 import HowItWorks from './HowItWorks';
 import Impact from './Impact';
-import Social from './Social';
-import Footer from './Footer';
+import Intro from './Intro';
 import Pricing from './Pricing';
+import Problem from './Problem';
+import Social from './Social';
+import Solution from './Solution';
 import Team from './Team';
 
 function App() {
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  function handleFormOpen() {
+    setIsFormOpen(true);
+  }
+
+  function handleFormClose() {
+    setIsFormOpen(false);
+  }
+
   return (
     <div className='App'>
-      <Header />
+      <Header handleFormOpen={handleFormOpen}/>
       <Intro />
 
       <Element id='problem' name='problem'>
@@ -24,7 +35,7 @@ function App() {
 
       <Element id='solution' name='solution'>
         <Solution />
-        <HowItWorks />
+        <HowItWorks handleFormOpen={handleFormOpen}/>
       </Element>
 
       <Element id='impact' name='impact'>
@@ -34,7 +45,7 @@ function App() {
       <Social />
 
       <Element id='pricing' name='pricing'>
-        <Pricing />
+        <Pricing  handleFormOpen={handleFormOpen}/>
       </Element>
 
       <Element id='team' name='team'>
@@ -44,6 +55,8 @@ function App() {
       <Element id='contacts' name='contacts'>
         <Footer />
       </Element>
+
+      <Form isFormOpen={isFormOpen} handleFormClose={handleFormClose}/>
     </div>
   );
 }

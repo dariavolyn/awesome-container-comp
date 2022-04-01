@@ -5,3 +5,9 @@
     font-size: 14px;
     line-height: 16.59px;
 }
+
+@media screen and (max-width: 1024px) {
+    .header__title {
+      margin-left: 4px;
+    }
+}
