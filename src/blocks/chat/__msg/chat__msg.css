@@ -14,3 +14,10 @@
 .chat__msg:last-of-type {
     margin-bottom: 32px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 545px) {
+    .chat__msg {
+        max-width: 279px;
+        max-height: 92px;
+    }
+}

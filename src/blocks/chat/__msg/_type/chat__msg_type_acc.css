@@ -6,3 +6,10 @@
     border-radius: 10px 10px 0px 10px;
     color: white;
 }
+
+@media screen and (min-width: 320px) and (max-width: 545px) {
+    .chat__msg_type_acc {
+        margin-left: 32px;
+        margin-right: 62px;
+    }
+}
