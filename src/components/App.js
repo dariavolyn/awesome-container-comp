@@ -29,10 +29,10 @@ function App() {
       <Header handleFormOpen={handleFormOpen}/>
       <Intro />
 
-      {/* <Element id='problem' name='problem'>
+      <Element id='problem' name='problem'>
         <Problem />
       </Element>
-
+ {/*
       <Element id='solution' name='solution'>
         <Solution />
         <HowItWorks handleFormOpen={handleFormOpen}/>

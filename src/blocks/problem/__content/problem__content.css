@@ -1,7 +1,15 @@
 .problem__content {
     margin: 0;
-    padding: 120px 140px;
+    padding: 0;
     color: white;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 980px) {
+    .problem__content {
+        flex-direction: column-reverse;
+        height: auto;
+    }
 }

@@ -1,9 +1,28 @@
 .problem__subtitle {
     margin: 0;
-    padding: 40px 0 0 73px;
+    padding: 40px 0 0 0;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     height: 72px;
-    width: 627px;
+    max-width: 627px;
+}
+
+@media screen and (max-width: 1120px) {
+    .problem__subtitle {
+        max-width: 515px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .problem__subtitle {
+        max-width: 616px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .problem__subtitle {
+        padding-top: 32px;
+        max-width: 346px;
+    }
 }

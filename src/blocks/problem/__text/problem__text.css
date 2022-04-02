@@ -1,4 +1,26 @@
 .problem__text {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 73px;
+}
+
+@media screen and (max-width: 1120px) {
+    .problem__text {
+        width: 582px;
+        padding-left: 54px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .problem__text {
+        width: 647px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .problem__text {
+        width: 343px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
 }

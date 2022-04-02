@@ -4,3 +4,18 @@
     width: 347px;
     height: 348px;
 }
+
+@media screen and (max-width: 980px) {
+    .problem__circle {
+        width: 229px;
+        height: 229px;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .problem__circle {
+       padding-top: 100px;
+    }
+}
