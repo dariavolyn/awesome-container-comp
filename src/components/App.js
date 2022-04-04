@@ -35,7 +35,7 @@ function App() {
 
       <Element id='solution' name='solution'>
         <Solution />
-        {/* <HowItWorks handleFormOpen={handleFormOpen}/> */}
+        <HowItWorks handleFormOpen={handleFormOpen}/>
       </Element>
       
  {/*

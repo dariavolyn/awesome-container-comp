@@ -1,0 +1,12 @@
+.how__arrow-around {
+    margin: 0 auto;
+    padding: 47px 0 30px 0;
+    width: 84.5px;
+    height: 49.5px;
+}
+
+@media screen and (min-width: 771px) {
+    .how__arrow-around {
+        display: none;
+    }
+}

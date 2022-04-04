@@ -9,3 +9,22 @@
     top: 50%;
     left: 541px;
 }
+
+@media screen and (max-width: 1024px) {
+    .how__label {
+        left: 432px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .how__label {
+        left: 360px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .how__label {
+        position: initial;
+      margin: 0 auto;
+    }
+}

@@ -2,3 +2,10 @@
     top: 291px;
     right: 0;
 }
+
+@media screen and (max-width: 770px) {
+    .how__circle-item_type_truck {
+        top: 0;
+        position: relative;
+    }
+}

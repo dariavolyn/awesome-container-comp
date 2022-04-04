@@ -2,3 +2,9 @@
     height: 46px;
     width: 46px;
 }
+
+@media screen and (max-width: 770px) {
+    .how__arrow {
+       display: none;
+    }
+ }

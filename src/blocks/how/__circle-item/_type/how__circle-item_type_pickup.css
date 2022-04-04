@@ -2,3 +2,21 @@
     bottom: 0;
     left: 410px;
 }
+
+@media screen and (max-width: 1024px) {
+    .how__circle-item_type_pickup {
+       left: 300px;
+    }
+ }
+
+ @media screen and (max-width: 870px) {
+    .how__circle-item_type_pickup {
+       left: 230px;
+    }
+ }
+
+ @media screen and (max-width: 770px) {
+    .how__circle-item_type_pickup {
+       position: initial;
+    }
+ }

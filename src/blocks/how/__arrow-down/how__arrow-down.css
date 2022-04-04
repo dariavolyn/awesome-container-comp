@@ -1,0 +1,12 @@
+.how__arrow-down {
+    width: 32px;
+    height: 47px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+@media screen and (min-width: 771px) {
+    .how__arrow-down{
+        display: none;
+    }
+}

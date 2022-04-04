@@ -6,3 +6,13 @@
     font-weight: 400;
     line-height: 52px;
 }
+
+@media screen and (max-width: 770px) {
+    .how__title {
+       margin: 0 auto;
+       padding-bottom: 60px;
+       font-size: 28px;
+       line-height: 32px;
+       padding-left: 0;
+    }
+}

@@ -1,4 +1,22 @@
 .how__circle-item_type_app {
    top: 0;
-   left: 410px;
+   left: 33%;
+}
+
+@media screen and (max-width: 1024px) {
+   .how__circle-item_type_app {
+      left: 300px;
+   }
+}
+
+@media screen and (max-width: 870px) {
+   .how__circle-item_type_app {
+      left: 230px;
+   }
+}
+
+@media screen and (max-width: 770px) {
+   .how__circle-item_type_app {
+      position: initial;
+   }
 }
