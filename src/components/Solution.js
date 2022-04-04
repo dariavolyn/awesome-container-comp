@@ -15,7 +15,7 @@ function Solution() {
     const [slideOneOpen, setSlideOneOpen] = useState(true);
     const [slideTwoOpen, setSlideTwoOpen] = useState(false);
     const [slideThreeOpen, setSlideThreeOpen] = useState(false);
-    
+
     function nextSlide() {
         if (slideOneOpen) {
             setSlideOneOpen(false);
@@ -108,7 +108,7 @@ function Solution() {
                     slideOpen={slideThreeOpen}
                 >
                     <h3 className='slide__list-title'>Features</h3>
-                    <li className='slide__list-point'>Leak-resistant lid keeps food fresh</li>
+                    <li className='slide__list-point'>Removable 2-section + 4-section divider • Leak-resistant lid keeps food fresh</li>
                     <li className='slide__list-point'>Easy to sanitize and dishwasher safe</li>
                     <li className='slide__list-point'>Containers and lids are freezer safe</li>
                     <li className='slide__list-point'>Containers are oven safe up to 300 degrees</li>
@@ -120,14 +120,30 @@ function Solution() {
 
                     <h3 className='slide__list-title'>Sizing</h3>
 
-                    <li className='slide__list-point'>16oz, container size with lid on: 4-5/8" x 2.25". Lid is 4.75” diameter</li>
-                    <li className='slide__list-point'>9oz, container size with lid on: 4" x 2". Lid is 4” diameter</li>
-                    <li className='slide__list-point'>5oz, container size with lid on: 3.5" x 1.5". Lid is 3.5” diameter</li>
+                    <li className='slide__list-point'>100oz (3 liters, 12.5 cups), 9.5” x 3.25”</li>
 
                 </Slide>
                 <button className='button solution__arrow-next' onClick={nextSlide}></button>
             </div>
+
+            <div className='solution__info'>
+                <div className='solution__support'>
+                    <img className='solution__support-img' src={support} alt='Support logo' />
+                    <p className='solution__caption'>Backend logistics support</p>
+                </div>
+
+                <div className='solution__costs'>
+                    <img className='solution__costs-img' src={costs} alt='Costs logo' />
+                    <p className='solution__caption solution__caption_type_costs'>Save at least 50% on supply cost and time on inventory tracking/re-orders</p>
+                </div>
+
+                <div className='solution__space'>
+                    <img className='solution__space-img' src={space} alt='Space logo' />
+                    <p className='solution__caption solution__caption_type_space'>Save storage space while removing tons of waste from our oceans and landfills</p>
+                </div>
+            </div>
         </div>
+
     )
 }
 

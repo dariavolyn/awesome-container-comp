@@ -1,11 +1,15 @@
 .solution__support {
     margin: 0;
     padding: 0;
-    position: absolute;
-    top: 81px;
-    left: 100px;
+    width: 325px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    .solution__support {
+        align-self: center;
+    }
 }

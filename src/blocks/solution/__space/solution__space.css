@@ -1,11 +1,23 @@
 .solution__space {
-    margin: 0;
+    margin: 0 0 0 204px;
     padding: 0;
-    position: absolute;
-    top: 530px;
-    left: 320px;
+    width: 514px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 830px) {
+    .solution__space {
+       margin-left: 0;
+       padding-top: 80px;
+       align-self: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .solution__space {
+       width: 343px;
+    }
 }
