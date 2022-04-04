@@ -1,0 +1,59 @@
+@import url('./_invisible/slide_invisible.css');
+@import url('./__img/slide__img.css');
+@import url('./__list/slide__list.css');
+@import url('./__list-title/slide__list-title.css');
+@import url('./__list-point/slide__list-point.css');
+
+.slide {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    background-position: center;
+    object-fit: contain;
+    width: 90%;
+    max-width: 1212px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    /* animation: slidein 2s;
+    overflow: hidden; */
+}
+
+@media screen and (max-width: 1024px) {
+    .slide {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide {
+        margin: 0 auto;
+        height: auto;
+        max-width: 640px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+@media screen and (max-width: 545px) {
+    .slide {
+        width: 355px;
+        height: auto;
+    }
+}
+
+
+/* @keyframes slidein {
+    from {
+        visibility: hidden;
+        margin-right: -100%;
+    }
+
+    to {
+        visibility: visible;
+        margin-right: 0;
+    }
+} */

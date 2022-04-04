@@ -1,0 +1,21 @@
+.slide__img {
+    margin: auto 0;
+    padding: 0;
+    width: 518px;
+    height: 518px;
+}
+
+@media screen and (max-width: 1024px) {
+    .slide__img {
+        width: 425px;
+        height: 425px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide__img {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+    }
+}

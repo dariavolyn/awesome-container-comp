@@ -32,12 +32,13 @@ function App() {
       <Element id='problem' name='problem'>
         <Problem />
       </Element>
- {/*
+
       <Element id='solution' name='solution'>
         <Solution />
-        <HowItWorks handleFormOpen={handleFormOpen}/>
+        {/* <HowItWorks handleFormOpen={handleFormOpen}/> */}
       </Element>
-
+      
+ {/*
       <Element id='impact' name='impact'>
         <Impact />
       </Element>

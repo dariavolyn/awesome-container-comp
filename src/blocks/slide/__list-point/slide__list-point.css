@@ -1,0 +1,17 @@
+.slide__list-point {
+    font-family: Spline Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
+
+
+@media screen and (max-width: 545px) {
+    .slide__list-point {
+        line-height: 20px;
+    }
+}

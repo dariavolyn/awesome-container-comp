@@ -1,5 +1,6 @@
 @import url(./vendor/fonts/fonts.css);
 @import url(react-responsive-carousel/lib/styles/carousel.min.css);
+
 @import url(./blocks/page/page.css);
 
 @import url(./blocks/chat/chat.css);
@@ -11,8 +12,12 @@
 @import url(./blocks/info/info.css);
 @import url(./blocks/price/price.css);
 @import url(./blocks/problem/problem.css);
+@import url(./blocks/slide/slide.css);
+@import url(./blocks/slide/_invisible/slide_invisible.css);
 @import url(./blocks/slider/slider.css);
 @import url(./blocks/social/social.css);
 @import url(./blocks/solution/solution.css);
 @import url(./blocks/team/team.css);
 @import url(./blocks/form/_visible/form_visible.css);
+
+/* @import url(pure-react-carousel/dist/react-carousel.es.css); */

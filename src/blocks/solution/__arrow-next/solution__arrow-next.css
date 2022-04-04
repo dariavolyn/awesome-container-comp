@@ -1,7 +1,7 @@
 .solution__arrow-next {
     width: 24px;
     height: 24px;
-    margin: 0;
+    margin: auto 0;
     padding: 0;
     background-color: #1C383C;
     background-image: url('../../../images/arrow-next.svg');
@@ -12,5 +12,12 @@
     border: none;
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 40px;
+}
+
+@media screen and (max-width: 545px) {
+    .solution__arrow-next {
+        top: 90%;
+        bottom: 0;
+    }
 }

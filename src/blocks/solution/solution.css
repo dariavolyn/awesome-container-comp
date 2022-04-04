@@ -25,4 +25,5 @@
     flex-wrap: wrap;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
 }

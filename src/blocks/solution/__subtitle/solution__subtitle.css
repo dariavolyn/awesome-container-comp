@@ -7,3 +7,10 @@
     line-height: 24px;
     text-align: center;
 }
+
+
+@media screen and (max-width: 545px) {
+    .solution__subtitle {
+        max-width: 346px;
+    }
+}

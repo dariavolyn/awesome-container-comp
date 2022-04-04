@@ -1,5 +1,7 @@
 .solution__image {
     margin: 0 auto;
     padding: 0;
-    overflow: visible;
+    width: 1212px;
+    height: 600px;
+    object-fit: contain;
 }

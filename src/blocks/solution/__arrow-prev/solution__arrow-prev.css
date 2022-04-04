@@ -1,7 +1,7 @@
 .solution__arrow-prev {
     width: 24px;
     height: 24px;
-    margin: 0;
+    margin: auto 0;
     padding: 0;
     background-color: #1C383C;
     background-image: url('../../../images/arrow-prev.svg');
@@ -12,6 +12,12 @@
     border: none;
     position: absolute;
     top: 50%;
-    left: 0;
-    z-index: 1;
+    left: 40px;
+}
+
+@media screen and (max-width: 545px) {
+    .solution__arrow-prev {
+        top: 90%;
+        bottom: 0;
+    }
 }
