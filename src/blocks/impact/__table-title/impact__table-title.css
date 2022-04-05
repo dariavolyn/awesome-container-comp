@@ -7,3 +7,10 @@
     line-height: 52px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .impact__table-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}

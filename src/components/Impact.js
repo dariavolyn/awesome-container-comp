@@ -48,7 +48,7 @@ function Impact() {
                 </div>
             </div>
 
-            {/* <div className='impact__table'>
+            <div className='impact__table'>
                 <h3 className='impact__table-title'>The competition is no match</h3>
                 <div className='impact__grid'>
                     <div className='impact__cell'>
@@ -151,7 +151,7 @@ function Impact() {
                     <div className='impact__cell'></div>
 
                 </div>
-            </div> */}
+            </div>
         </div >
     )
 }

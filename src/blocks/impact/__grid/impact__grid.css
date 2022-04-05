@@ -10,4 +10,24 @@
     grid-row-gap: 0px;
     border-radius: 3px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: auto scroll;
+}
+
+.impact__grid::-webkit-scrollbar {
+    width: 0;
+    height: 8px;
+    background-color: #E1E1E1;
+    border-radius: 4px;
+}
+
+.impact__grid::-webkit-scrollbar-thumb {
+    height: 8px;
+    background-color: #1C383C;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .impact__grid {
+        grid-template-columns: repeat(6, 163px);
+    }
 }

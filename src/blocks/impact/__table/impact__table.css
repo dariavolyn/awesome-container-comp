@@ -2,3 +2,10 @@
     margin: 0;
     padding: 120px 0 121px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .impact__table {
+       padding-top: 80px;
+       padding-bottom: 100px;
+    }
+}
