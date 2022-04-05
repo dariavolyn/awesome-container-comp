@@ -17,10 +17,16 @@
 @import url(./__label/how__label.css);
 @import url(./__title/how__title.css);
 
-.how { 
+.how {
     margin: 0;
     padding: 0;
     color: #1C383C;
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1440px) {
+    .how {
+        flex-direction: column;
+    }
 }

@@ -38,11 +38,11 @@ function App() {
         <HowItWorks handleFormOpen={handleFormOpen}/>
       </Element>
       
- {/*
       <Element id='impact' name='impact'>
         <Impact />
       </Element>
 
+ {/*s
       <Social />
 
       <Element id='pricing' name='pricing'>

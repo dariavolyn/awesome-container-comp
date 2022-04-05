@@ -4,6 +4,7 @@
     height: 700px;
     width: 1240px;
     position: relative;
+    justify-self: center;
 }
 
 @media screen and (max-width: 770px) {

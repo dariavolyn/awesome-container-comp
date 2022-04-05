@@ -2,8 +2,17 @@
     margin: 0 40px;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(2, 660px);
-    grid-template-rows: 433px;
+    grid-template-columns: repeat(2, 48%);
     column-gap: 40px;
+    position: relative;
+    z-index: 1;
+}
 
+@media screen and (max-width: 768px) {
+    .impact__cards {
+        padding-top: 40px;
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 60px;
+    }
 }
