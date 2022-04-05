@@ -7,3 +7,17 @@
     line-height: 52px;
     max-width: 800px;
 }
+
+@media screen and (max-width: 1105px) {
+    .social__info-title {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .social__info-title {
+        padding-top: 60px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+}

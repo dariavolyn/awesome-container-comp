@@ -42,9 +42,9 @@ function App() {
         <Impact />
       </Element>
 
- {/*s
-      <Social />
 
+      <Social />
+ {/*s
       <Element id='pricing' name='pricing'>
         <Pricing  handleFormOpen={handleFormOpen}/>
       </Element>

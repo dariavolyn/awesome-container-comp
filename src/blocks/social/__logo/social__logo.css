@@ -1,0 +1,20 @@
+.social__logo {
+    margin: 0;
+    padding: 0;
+    width: 306px;
+    height: 282px;
+}
+
+@media screen and (max-width: 1105px) {
+    .social__logo {
+        margin: 0 auto;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .social__logo {
+        width: 173.62px;
+        height: 160px;
+    }
+}

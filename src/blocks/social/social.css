@@ -1,16 +1,15 @@
 @import url(./__info/social__info.css);
-@import url(./__info-title/social__info-title.css);
-@import url(./__info-logo/social__info-logo.css);
 @import url(./__info-text/social__info-text.css);
+@import url(./__info-title/social__info-title.css);
 @import url(./__title/social__title.css);
+@import url(./__logo/social__logo.css);
 
 .social {
     margin: 0;
     padding: 59px 0 0 0;
     color: #1C383C;
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

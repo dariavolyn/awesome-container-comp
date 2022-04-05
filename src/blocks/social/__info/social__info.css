@@ -1,7 +1,13 @@
 .social__info {
-    margin: 0 auto;
-    padding: 0 0 240px 0;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 1105px) {
+    .social__info {
+        width: 90%;
+        margin: 0 auto;
+        justify-self: center;
+    }
 }
