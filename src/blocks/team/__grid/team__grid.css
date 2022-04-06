@@ -6,3 +6,18 @@
     grid-template-rows: 274.2px;
     column-gap: 100px;
 }
+
+@media screen and (max-width: 800px) {
+    .team__grid {
+        column-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .team__grid {
+        grid-template-columns: 200px;
+        column-gap: 0;
+        grid-template-rows: repeat(3, 274.2px);
+        row-gap: 44px;
+    }
+}

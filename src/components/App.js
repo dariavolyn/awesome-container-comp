@@ -48,11 +48,11 @@ function App() {
         <Pricing handleFormOpen={handleFormOpen} />
       </Element>
 
-      {/*
+      
       <Element id='team' name='team'>
         <Team />
       </Element>
-
+{/*
       <Element id='contacts' name='contacts'>
         <Footer />
       </Element>

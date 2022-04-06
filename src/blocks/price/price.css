@@ -9,15 +9,15 @@
 
 .price {
     margin: 0;
-    padding: 240px 0 0 0;
+    padding: 0 0 240px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .price {
-        padding-top: 120px;
+        padding-bottom: 120px;
     }
 }

@@ -6,10 +6,16 @@
 
 .social {
     margin: 0;
-    padding: 59px 0 0 0;
+    padding: 59px 0 240px 0;
     color: #1C383C;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 500px) {
+    .social{
+        padding-bottom: 120px;
+    }
 }
