@@ -56,8 +56,8 @@ function App() {
       <Element id='contacts' name='contacts'>
         <Footer />
       </Element>
-{/*
-      <Form isFormOpen={isFormOpen} handleFormClose={handleFormClose}/> */}
+
+      <Form isFormOpen={isFormOpen} handleFormClose={handleFormClose}/>
     </div>
   );
 }

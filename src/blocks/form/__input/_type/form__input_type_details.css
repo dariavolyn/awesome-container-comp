@@ -1,3 +1,10 @@
 .form__input_type_details {
     height: 180px;
 }
+
+@media screen and (max-width: 1439px) {
+    .form__input_type_details {
+        max-height: 8vw;
+        min-height: 100px;
+    }
+}

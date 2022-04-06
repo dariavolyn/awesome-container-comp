@@ -11,3 +11,9 @@
     word-wrap: break-word;
     font-family: Spline Sans;
 }
+
+@media screen and (max-width: 800px) {
+    .form__input {
+        padding: 15px;
+    }
+}

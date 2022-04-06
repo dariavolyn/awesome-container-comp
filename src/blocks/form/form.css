@@ -11,15 +11,29 @@
 @import url(./__wrapper/form__wrapper.css);
 
 .form {
-    margin: 0 25% 0 25%;
-    padding: 0 80px 0 80px;
+    margin: 0 auto;
+    padding: 60px 80px 40px 80px;
     max-width: 760px;
     position: fixed;
+    z-index: 3;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     color: #1C383C;
     background-color: white;
     display: flex;
-    height: 778px;
+    overflow-y: scroll;
+    max-height: 90vh;
+}
+
+@media screen and (max-width: 800px) {
+    .form {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .form {
+        padding: 40px 20px 30px 20px;
+    }
 }
