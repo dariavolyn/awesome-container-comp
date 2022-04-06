@@ -4,5 +4,12 @@
 }
 
 .footer__text_type_credits:last-of-type {
-padding-left: 40px;
+    padding-left: 40px;
 }
+
+@media screen and (max-width: 600px) {
+    .footer__text_type_credits:last-of-type {
+        padding-left: 0;
+    }
+}
+

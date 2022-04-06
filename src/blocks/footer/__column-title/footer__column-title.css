@@ -6,3 +6,11 @@
     font-weight: 600;
     line-height: 52px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .footer__column-title {
+        font-size: 28px;
+        line-height: 33px;
+    }
+}

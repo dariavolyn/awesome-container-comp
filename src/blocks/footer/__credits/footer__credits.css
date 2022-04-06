@@ -1,7 +1,19 @@
 .footer__credits {
-    margin: 168px 0 0 0;
+    margin: 0;
     padding: 0;
     width: 360px;
     display: flex;
-    
+}
+
+@media screen and (max-width: 1150px) {
+    .footer__credits {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__credits {
+       max-width: 239px;
+    }
 }

@@ -9,11 +9,11 @@
 
 @media screen and (max-width: 800px) {
     .team__grid {
-        column-gap: 50px;
+        column-gap: 0;
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .team__grid {
         grid-template-columns: 200px;
         column-gap: 0;

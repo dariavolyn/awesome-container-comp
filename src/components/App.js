@@ -52,11 +52,11 @@ function App() {
       <Element id='team' name='team'>
         <Team />
       </Element>
-{/*
+
       <Element id='contacts' name='contacts'>
         <Footer />
       </Element>
-
+{/*
       <Form isFormOpen={isFormOpen} handleFormClose={handleFormClose}/> */}
     </div>
   );
