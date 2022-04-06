@@ -5,3 +5,19 @@
     flex-wrap: wrap;
     height: 178px;
 }
+
+@media screen and (max-width: 715px) {
+    .price__work {
+        padding-top: 60px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        height: auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .price__work {
+        padding-top: 40px;
+    }
+}

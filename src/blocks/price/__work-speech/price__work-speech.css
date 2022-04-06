@@ -8,3 +8,15 @@
     display: flex;
     align-content: center;
 }
+
+@media screen and (max-width: 715px) {
+    .price__work-speech {
+        background-image: url(../../../images/speech-bubble2.svg);
+        background-position: center;
+        background-size: contain;
+        width: 308px;
+        height: 192px;
+        margin: 0 auto;
+        padding-bottom: 26px;
+    }
+}

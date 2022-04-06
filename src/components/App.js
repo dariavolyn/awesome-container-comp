@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Header handleFormOpen={handleFormOpen}/>
+      <Header handleFormOpen={handleFormOpen} />
       <Intro />
 
       <Element id='problem' name='problem'>
@@ -35,20 +35,20 @@ function App() {
 
       <Element id='solution' name='solution'>
         <Solution />
-        <HowItWorks handleFormOpen={handleFormOpen}/>
+        <HowItWorks handleFormOpen={handleFormOpen} />
       </Element>
-      
+
       <Element id='impact' name='impact'>
         <Impact />
       </Element>
 
-
       <Social />
- {/*s
+
       <Element id='pricing' name='pricing'>
-        <Pricing  handleFormOpen={handleFormOpen}/>
+        <Pricing handleFormOpen={handleFormOpen} />
       </Element>
 
+      {/*
       <Element id='team' name='team'>
         <Team />
       </Element>

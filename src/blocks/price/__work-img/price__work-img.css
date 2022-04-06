@@ -5,3 +5,11 @@
     height: 106x;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 715px) {
+    .price__work-img {
+        align-self: flex-start;
+        width: 130px;
+        height: 72.51px;
+    }
+}
