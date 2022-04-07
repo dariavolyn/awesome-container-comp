@@ -48,7 +48,7 @@ function App() {
         <Pricing handleFormOpen={handleFormOpen} />
       </Element>
 
-      
+
       <Element id='team' name='team'>
         <Team />
       </Element>
@@ -57,7 +57,7 @@ function App() {
         <Footer />
       </Element>
 
-      <Form isFormOpen={isFormOpen} handleFormClose={handleFormClose}/>
+      <Form isFormOpen={isFormOpen} handleFormClose={handleFormClose} />
     </div>
   );
 }

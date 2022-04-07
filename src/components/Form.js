@@ -4,21 +4,24 @@ import useForm from '../util/useForm';
 export default function Form(props) {
     const { values, errors, handleChange, reset } = useForm();
 
+    console.log(values.username)
     function onClose() {
         props.handleFormClose();
         reset();
     }
 
     function handleSubmit(e) {
-        e.preventDefault();
-        console.log(values)
+        onClose();
     }
 
     return (
         <div className={`${props.isFormOpen ? 'form_visible' : ''} form__wrapper `}>
-            <form className='form'
-            method='POST'
-            action='https://docs.google.com/forms/d/1a9vXoIEaAlvbZvwaHNcmtAXUKMJcWsPQppI_HncTTIw/formResponse'
+            <iframe title='form__iframe' name='form__iframe' id='form__iframe' />
+            <form
+                target='form__iframe'
+                className='form'
+                method='POST'
+                action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScXkgQnRhxa_EErZvoe6nejn1_9BjmiTFuGxwNv98T5wmxS9g/formResponse'
             >
                 <button type='button' className='button form__close' onClick={onClose}>+</button>
                 <h2 className='form__title'>Leave your contacts and request, and our manager will reach out to you to establish our futher parntership!</h2>
@@ -42,16 +45,18 @@ export default function Form(props) {
                 ></input>
 
                 <label className='form__label'>Your request / interest</label>
-                <textarea className='form__input form__input_type_details'
+                <input className='form__input form__input_type_details'
                     type='text'
                     id='details'
                     name='entry.1116781346'
-                ></textarea>
+                    onChange={handleChange}
+                ></input>
 
-                <button className={`button form__button ${errors.email || errors.username ? 'form__button_disabled' : ''}`}
-                    disabled={errors.email || errors.username || !values.email || !values.username}
-                    type='submit'
+                <button
+                    className={`button form__button ${errors.email || errors.username || values.username === undefined || values.email === undefined
+                        ? 'form__button_disabled' : '' }`}
                     onClick={handleSubmit}
+                    type='submit'
                 >Send</button>
             </form>
         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const useForm = () => {
     const [values, setValues] = useState({});
@@ -6,18 +6,18 @@ const useForm = () => {
 
     const validate = (name, value) => {
         switch (name) {
-            case 'username':
+            case 'entry.1546054863':
                 if (value.length <= 0) {
                     setErrors({
                         ...errors,
                         username: 'Username * (this field is required)'
                     })
                 } else {
-                    setErrors({...errors, username: ''})
+                    setErrors({ ...errors, username: '' })
                 }
                 break;
 
-            case 'email':
+            case 'entry.1255229173':
                 if (value.length <= 0) {
                     setErrors({
                         ...errors,
@@ -29,7 +29,7 @@ const useForm = () => {
                         email: 'Email address is not valid'
                     })
                 } else {
-                    setErrors({...errors, email: ''})
+                    setErrors({ ...errors, email: '' })
                 }
                 break;
 
@@ -41,16 +41,38 @@ const useForm = () => {
     const handleChange = (e) => {
         let name = e.target.name;
         let value = e.target.value;
-        validate(name, value);
 
-        setValues({
-            ...values,
-            [name]: value,
-        })
+        switch (name) {
+            case 'entry.1546054863':
+                setValues({
+                    ...values,
+                    username: value,
+                })
+                break;
+
+            case 'entry.1255229173':
+                setValues({
+                    ...values,
+                    email: value,
+                })
+                break;
+
+            case 'entry.1116781346':
+                setValues({
+                    ...values,
+                    details: value,
+                })
+                break;
+
+            default:
+                break;
+        }
+
+        validate(name, value);
     }
 
     const reset = () => {
-        setValues({email: '', username: ''});
+        setValues({});
         setErrors({})
     }
 
@@ -58,7 +80,7 @@ const useForm = () => {
         values,
         reset,
         errors,
-        handleChange,
+        handleChange
     }
 }
 
