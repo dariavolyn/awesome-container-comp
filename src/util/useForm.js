@@ -3,6 +3,7 @@ import { useState } from 'react';
 const useForm = () => {
     const [values, setValues] = useState({});
     const [errors, setErrors] = useState({});
+    const initialState = { username: '', email: '', details: '' }
 
     const validate = (name, value) => {
         switch (name) {
@@ -72,8 +73,8 @@ const useForm = () => {
     }
 
     const reset = () => {
-        setValues({});
-        setErrors({})
+        setErrors({});
+        setValues({...initialState})
     }
 
     return {

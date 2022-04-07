@@ -4,7 +4,6 @@ import useForm from '../util/useForm';
 export default function Form(props) {
     const { values, errors, handleChange, reset } = useForm();
 
-    console.log(values.username)
     function onClose() {
         props.handleFormClose();
         reset();
@@ -29,6 +28,7 @@ export default function Form(props) {
                 <label className={`form__label ${errors.username ? 'form__label_invisible' : ''}`}>Personal or company name *</label>
                 {errors.username && <span className='form__label form__label-error'>{errors.username}</span>}
                 <input className={`form__input form__input_type_name ${errors.username ? 'form__input-error' : ''}`}
+                    value={values.username}
                     type='text'
                     id='username'
                     name='entry.1546054863'
@@ -38,6 +38,7 @@ export default function Form(props) {
                 <label className={`form__label ${errors.email ? 'form__label_invisible' : ''}`}>Email *</label>
                 {errors.email && <span className='form__label form__label-error'>{errors.email}</span>}
                 <input className={`form__input form__input_type_email ${errors.email ? 'form__input-error' : ''}`}
+                    value={values.email}
                     type='text'
                     id='email'
                     name='entry.1255229173'
@@ -46,6 +47,7 @@ export default function Form(props) {
 
                 <label className='form__label'>Your request / interest</label>
                 <input className='form__input form__input_type_details'
+                    value={values.details}
                     type='text'
                     id='details'
                     name='entry.1116781346'
@@ -54,7 +56,7 @@ export default function Form(props) {
 
                 <button
                     className={`button form__button ${errors.email || errors.username || values.username === undefined || values.email === undefined
-                        ? 'form__button_disabled' : '' }`}
+                        ? 'form__button_disabled' : ''}`}
                     onClick={handleSubmit}
                     type='submit'
                 >Send</button>
