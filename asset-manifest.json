@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/awesome-container-comp/static/css/main.1e85ada4.css",
-    "main.js": "/awesome-container-comp/static/js/main.ccc4fa65.js",
+    "main.css": "/awesome-container-comp/static/css/main.b1c848b0.css",
+    "main.js": "/awesome-container-comp/static/js/main.bf7cad6c.js",
     "static/js/787.7002ad84.chunk.js": "/awesome-container-comp/static/js/787.7002ad84.chunk.js",
     "static/media/recycling.svg": "/awesome-container-comp/static/media/recycling.4636f941bf707bb85fa9726964d72819.svg",
     "static/media/landfill.svg": "/awesome-container-comp/static/media/landfill.3c4d66e18b795f927b305f7bcce8b6cd.svg",
@@ -60,12 +60,12 @@
     "static/media/rect-3.svg": "/awesome-container-comp/static/media/rect-3.eaaff8dd5850b5e3f63b3972f25bacbb.svg",
     "static/media/list.svg": "/awesome-container-comp/static/media/list.58214c8efef45c80298b.svg",
     "static/media/romb.svg": "/awesome-container-comp/static/media/romb.58214c8efef45c80298b.svg",
-    "main.1e85ada4.css.map": "/awesome-container-comp/static/css/main.1e85ada4.css.map",
-    "main.ccc4fa65.js.map": "/awesome-container-comp/static/js/main.ccc4fa65.js.map",
+    "main.b1c848b0.css.map": "/awesome-container-comp/static/css/main.b1c848b0.css.map",
+    "main.bf7cad6c.js.map": "/awesome-container-comp/static/js/main.bf7cad6c.js.map",
     "787.7002ad84.chunk.js.map": "/awesome-container-comp/static/js/787.7002ad84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e85ada4.css",
-    "static/js/main.ccc4fa65.js"
+    "static/css/main.b1c848b0.css",
+    "static/js/main.bf7cad6c.js"
   ]
 }
