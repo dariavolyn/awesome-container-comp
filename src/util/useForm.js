@@ -43,38 +43,43 @@ const useForm = () => {
         let name = e.target.name;
         let value = e.target.value;
 
-        switch (name) {
-            case 'entry.1546054863':
-                setValues({
-                    ...values,
-                    username: value,
-                })
-                break;
+        // switch (name) {
+        //     case 'entry.1546054863':
+        //         setValues({
+        //             ...values,
+        //             username: value,
+        //         })
+        //         break;
 
-            case 'entry.1255229173':
-                setValues({
-                    ...values,
-                    email: value,
-                })
-                break;
+        //     case 'entry.1255229173':
+        //         setValues({
+        //             ...values,
+        //             email: value,
+        //         })
+        //         break;
 
-            case 'entry.1116781346':
-                setValues({
-                    ...values,
-                    details: value,
-                })
-                break;
+        //     case 'entry.1116781346':
+        //         setValues({
+        //             ...values,
+        //             details: value,
+        //         })
+        //         break;
 
-            default:
-                break;
-        }
+        //     default:
+        //         break;
+        // }
+
+        setValues({
+            ...values,
+            [name]: value
+        })
 
         validate(name, value);
     }
 
     const reset = () => {
         setErrors({});
-        setValues({...initialState})
+        setValues({ ...initialState })
     }
 
     return {
