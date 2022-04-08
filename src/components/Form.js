@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSearchParams } from 'react-router-dom';
 import useForm from '../util/useForm';
 
 export default function Form(props) {
@@ -15,7 +16,7 @@ export default function Form(props) {
 
     return (
         <div className={`${props.isFormOpen ? 'form_visible' : ''} form__wrapper `}>
-            <iframe title='form__iframe' name='form__iframe' id='form__iframe' frameBorder='0'/>
+            <iframe title='form__iframe' name='form__iframe' id='form__iframe' className='form__iframe'/>
             <form
                 target='form__iframe'
                 className='form'
@@ -55,7 +56,7 @@ export default function Form(props) {
                 ></input>
 
                 <button
-                    className={`button form__button ${errors.email || errors.username || values.username === undefined || values.email === undefined
+                    className={`button form__button ${errors.email || errors.username
                         ? 'form__button_disabled' : ''}`}
                     onClick={handleSubmit}
                     type='submit'

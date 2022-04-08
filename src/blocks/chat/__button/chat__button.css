@@ -4,3 +4,7 @@
     border-color: transparent;
     border-radius: 0px 10px 10px 10px;
 }
+
+.chat__button:hover {
+    cursor: pointer;
+}

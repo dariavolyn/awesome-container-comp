@@ -1,5 +1,13 @@
 .form_visible {
     display: flex;
-    opacity: 1;
-    transition: opacity 1s;
+    animation: appear 1s;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

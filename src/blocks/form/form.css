@@ -24,7 +24,16 @@
     background-color: white;
     display: flex;
     max-height: 90vh;
-    
+
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
 
 @media screen and (max-width: 800px) {
