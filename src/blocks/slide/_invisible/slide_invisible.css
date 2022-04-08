@@ -1,4 +1,17 @@
 .slide_invisible {
     overflow: hidden;
     display: none;
+    animation: slidein 1s ease-in forwards;
+}
+
+@keyframes slidein {
+    from {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
 }

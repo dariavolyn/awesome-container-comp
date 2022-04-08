@@ -1,15 +1,2 @@
-.slide__next {
-    animation: slidein ease-in 1s forwards;
-}
 
-@keyframes slidein {
-    from {
-        visibility: hidden;
-        margin-right: -100%;
-    }
 
-    to {
-        visibility: visible;
-        margin-right: 0;
-    }
-}

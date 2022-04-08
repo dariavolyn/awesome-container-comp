@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from './Slider';
 import Chat from './Chat';
 
-function InfoBlock() {
+function InfoBlock(props) {
     const fontColor = '#FF9820';
     return (
         <div className='info'>
@@ -10,7 +10,7 @@ function InfoBlock() {
                 Help our environment by eliminating single-use plastics from your delivery with <span style={{color: fontColor}}>Awesome Container Company</span>
             </h2>
             <Slider></Slider>
-            <Chat></Chat>
+            <Chat handleFormOpen={props.handleFormOpen}></Chat>
         </div>
     )
 }

@@ -27,7 +27,7 @@ function App() {
   return (
     <div className='App'>
       <Header handleFormOpen={handleFormOpen} />
-      <Intro />
+      <Intro handleFormOpen={handleFormOpen} />
 
       <Element id='problem' name='problem'>
         <Problem />

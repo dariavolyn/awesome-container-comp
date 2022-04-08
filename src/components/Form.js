@@ -15,7 +15,7 @@ export default function Form(props) {
 
     return (
         <div className={`${props.isFormOpen ? 'form_visible' : ''} form__wrapper `}>
-            <iframe title='form__iframe' name='form__iframe' id='form__iframe' />
+            <iframe title='form__iframe' name='form__iframe' id='form__iframe' frameBorder='0'/>
             <form
                 target='form__iframe'
                 className='form'

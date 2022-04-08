@@ -3,7 +3,7 @@ import user from '../images/user_icon.svg';
 import acc from '../images/acc_icon.svg';
 import typing from '../images/typing.svg';
 
-function Chat() {
+function Chat(props) {
     const [firstMsgShow, setFirstMsgShow] = useState(false);
     const [typingShow, setTypingShow] = useState(false);
     const [secondMsgShow, setSecondMsgShow] = useState(false);
@@ -20,6 +20,9 @@ function Chat() {
         setTimeout(() => setFifthMsgShow(true), 7500);
     }, [])
     
+    function onClick() {
+        props.handleFormOpen();
+    }
 
     return (
         <div className='chat'>
@@ -39,8 +42,8 @@ function Chat() {
                 <p className='chat__text chat__text_type_user'>Awesome!</p>
             </div>
 
-            <div className={`chat__msg chat__msg_type_user chat__button ${fourthMsgShow && 'chat__msg_visible'}`}>
-                <p className='chat__text chat__text_type_user'>I want to work with you!</p>
+            <div className={`chat__msg chat__msg_type_user ${fourthMsgShow && 'chat__msg_visible'}`}>
+                <button className='chat__text chat__button chat__text_type_user' onClick={onClick}>I want to work with you!</button>
             </div>
 
             <div className={`chat__msg chat__msg_type_acc ${fifthMsgShow && 'chat__msg_visible'}`}>
