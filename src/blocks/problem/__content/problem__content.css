@@ -11,5 +11,7 @@
     .problem__content {
         flex-direction: column-reverse;
         height: auto;
+        margin: 0 auto;
+        max-width: 90%;
     }
 }

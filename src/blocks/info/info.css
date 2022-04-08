@@ -23,5 +23,7 @@
 @media screen and (min-width: 320px) and (max-width: 545px) {
     .info {
         margin-top: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
