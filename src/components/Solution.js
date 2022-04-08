@@ -12,11 +12,32 @@ import Slide from '../components/Slide';
 
 function Solution() {
     const fontColor = '#FF9820';
+    const [nextOne, setNextOne] = useState(false);
+
     const [slideOneOpen, setSlideOneOpen] = useState(true);
     const [slideTwoOpen, setSlideTwoOpen] = useState(false);
     const [slideThreeOpen, setSlideThreeOpen] = useState(false);
 
-    function nextSlide() {
+    // function OpenSlide() {
+    //     if (slideOneOpen) {
+    //         setSlideOneOpen(false);
+    //         setSlideTwoOpen(true);
+    //     }
+
+    //     if (slideTwoOpen) {
+    //         setSlideTwoOpen(false);
+    //         setSlideThreeOpen(true);
+    //     }
+
+    //     if (slideThreeOpen) {
+    //         setSlideThreeOpen(false);
+    //         setSlideOneOpen(true);
+    //     }
+    // }
+
+    function next() {
+
+        setNextOne(true);
         if (slideOneOpen) {
             setSlideOneOpen(false);
             setSlideTwoOpen(true);
@@ -31,10 +52,11 @@ function Solution() {
             setSlideThreeOpen(false);
             setSlideOneOpen(true);
         }
-
     }
 
-    function prevSlide() {
+    function prev() {
+        setNextOne(false);
+
         if (slideOneOpen) {
             setSlideOneOpen(false);
             setSlideThreeOpen(true);
@@ -58,11 +80,13 @@ function Solution() {
             <h3 className='solution__subtitle'><span style={{ color: fontColor }}>Awesome Container Company</span> replaces single-use packaging with reusable stainless steel containers</h3>
 
             <div className='solution__carousel'>
-                <button className='button solution__arrow-prev' onClick={prevSlide}></button>
+                <button className='button solution__arrow-prev' onClick={prev}></button>
                 <Slide
                     img={c1}
                     alt='Containers type 1'
                     slideOpen={slideOneOpen}
+                    nextOne={nextOne}
+
                 >
                     <h3 className='slide__list-title'>Features</h3>
                     <li className='slide__list-point'>Removable/adjustable divider</li>
@@ -84,6 +108,8 @@ function Solution() {
                     img={c2}
                     alt='Containers type 2'
                     slideOpen={slideTwoOpen}
+                    nextOne={nextOne}
+
                 >
                     <h3 className='slide__list-title'>Features</h3>
                     <li className='slide__list-point'>Leak-resistant lid keeps food fresh</li>
@@ -99,13 +125,14 @@ function Solution() {
                     <li className='slide__list-point'>16oz, container size with lid on: 4-5/8" x 2.25". Lid is 4.75” diameter</li>
                     <li className='slide__list-point'>9oz, container size with lid on: 4" x 2". Lid is 4” diameter</li>
                     <li className='slide__list-point'>5oz, container size with lid on: 3.5" x 1.5". Lid is 3.5” diameter</li>
-
                 </Slide>
 
                 <Slide
                     img={c3}
                     alt='Containers type 3'
                     slideOpen={slideThreeOpen}
+                    nextOne={nextOne}
+
                 >
                     <h3 className='slide__list-title'>Features</h3>
                     <li className='slide__list-point'>Removable 2-section + 4-section divider • Leak-resistant lid keeps food fresh</li>
@@ -121,9 +148,9 @@ function Solution() {
                     <h3 className='slide__list-title'>Sizing</h3>
 
                     <li className='slide__list-point'>100oz (3 liters, 12.5 cups), 9.5” x 3.25”</li>
-
                 </Slide>
-                <button className='button solution__arrow-next' onClick={nextSlide}></button>
+
+                <button className='button solution__arrow-next' onClick={next}></button>
             </div>
 
             <div className='solution__info'>

@@ -22,10 +22,6 @@
     flex-direction: column;
 }
 
-.chat_visible {
-    display: block;
-}
-
 @media screen and (max-width: 1024px) {
     .chat {
         margin: 60px auto 0 auto;

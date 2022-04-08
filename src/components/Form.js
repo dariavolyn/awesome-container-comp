@@ -23,7 +23,7 @@ export default function Form(props) {
                 action='https://docs.google.com/forms/u/0/d/e/1FAIpQLScXkgQnRhxa_EErZvoe6nejn1_9BjmiTFuGxwNv98T5wmxS9g/formResponse'
             >
                 <button type='button' className='button form__close' onClick={onClose}>+</button>
-                <h2 className='form__title'>Leave your contacts and request, and our manager will reach out to you to establish our futher parntership!</h2>
+                <h2 className='form__title'>Leave your contacts and request and our manager will reach out to you to establish our future partnership!</h2>
 
                 <label className={`form__label ${errors.username ? 'form__label_invisible' : ''}`}>Personal or company name *</label>
                 {errors.username && <span className='form__label form__label-error'>{errors.username}</span>}

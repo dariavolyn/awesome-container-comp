@@ -1,3 +1,13 @@
 .chat__msg_visible {
     display: block;
+    animation: appear 1s;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

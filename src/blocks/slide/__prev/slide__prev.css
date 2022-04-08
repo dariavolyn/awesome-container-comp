@@ -1,0 +1,15 @@
+.slide__prev {
+animation: slideout 1s ease-in;
+}
+
+@keyframes slideout {
+    from {
+        visibility: visible;
+        margin-right: 0;
+    }
+
+    to {
+        visibility: hidden;
+        margin-right: -100%;
+    }
+}

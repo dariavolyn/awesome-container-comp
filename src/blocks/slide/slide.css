@@ -1,5 +1,7 @@
 @import url('./_invisible/slide_invisible.css');
 @import url('./__img/slide__img.css');
+@import url('./__next/slide__next.css');
+@import url('./__prev/slide__prev.css');
 @import url('./__list/slide__list.css');
 @import url('./__list-title/slide__list-title.css');
 @import url('./__list-point/slide__list-point.css');
@@ -16,8 +18,7 @@
     border-radius: 10px;
     margin: 0;
     padding: 0;
-    /* animation: slidein 2s;
-    overflow: hidden; */
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
@@ -44,16 +45,3 @@
         height: auto;
     }
 }
-
-
-/* @keyframes slidein {
-    from {
-        visibility: hidden;
-        margin-right: -100%;
-    }
-
-    to {
-        visibility: visible;
-        margin-right: 0;
-    }
-} */
